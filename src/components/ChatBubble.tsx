@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import styles from './MessageBubble.module.css';
+import styles from './ChatBubble.module.css';
 
-interface MessageBubbleProps {
+interface ChatBubbleProps {
   message: string;
   sender: 'user' | 'bot';
   timestamp?: Date;
 }
 
-const MessageBubble: React.FC<MessageBubbleProps> = ({ message, sender, timestamp }) => {
+const ChatBubble: React.FC<ChatBubbleProps> = ({ message, sender, timestamp }) => {
   const [showReactions, setShowReactions] = useState(false);
   const [selectedReaction, setSelectedReaction] = useState<string | null>(null);
 
@@ -100,4 +100,4 @@ const MessageBubble: React.FC<MessageBubbleProps> = ({ message, sender, timestam
   );
 };
 
-export default MessageBubble;
+export default ChatBubble;

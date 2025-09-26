@@ -1,15 +1,15 @@
 import React, { useEffect, useRef } from 'react';
-import MessageBubble from './MessageBubble';
-import TypingIndicator from './TypingIndicator';
-import styles from './MessageList.module.css';
+import ChatBubble from './ChatBubble';
+import LoadingAnimation from './LoadingAnimation';
+import styles from './ConversationHistory.module.css';
 import type { ChatMessage } from '../services/api';
 
-interface MessageListProps {
+interface ConversationHistoryProps {
   messages: ChatMessage[];
   isLoading?: boolean;
 }
 
-const MessageList: React.FC<MessageListProps> = ({ messages, isLoading = false }) => {
+const ConversationHistory: React.FC<ConversationHistoryProps> = ({ messages, isLoading = false }) => {
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   const scrollToBottom = () => {
@@ -39,7 +39,7 @@ const MessageList: React.FC<MessageListProps> = ({ messages, isLoading = false }
       )}
       
       {messages.map((message) => (
-        <MessageBubble
+        <ChatBubble
           key={message.id}
           message={message.text}
           sender={message.sender}
@@ -47,11 +47,11 @@ const MessageList: React.FC<MessageListProps> = ({ messages, isLoading = false }
         />
       ))}
       
-      <TypingIndicator isVisible={isLoading} />
+      <LoadingAnimation isVisible={isLoading} />
       
       <div ref={messagesEndRef} />
     </div>
   );
 };
 
-export default MessageList;
+export default ConversationHistory;

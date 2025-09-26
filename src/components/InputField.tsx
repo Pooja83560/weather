@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import styles from './MessageInput.module.css';
+import styles from './InputField.module.css';
 
-interface MessageInputProps {
+interface InputFieldProps {
   onSendMessage: (message: string) => void;
   placeholder?: string;
   disabled?: boolean;
 }
 
-const MessageInput: React.FC<MessageInputProps> = ({ 
+const InputField: React.FC<InputFieldProps> = ({ 
   onSendMessage, 
   placeholder = "Type your message...", 
   disabled = false 
@@ -52,4 +52,4 @@ const MessageInput: React.FC<MessageInputProps> = ({
   );
 };
 
-export default MessageInput;
+export default InputField;

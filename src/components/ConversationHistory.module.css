@@ -4,25 +4,25 @@
   padding: 24px;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+  background: linear-gradient(180deg, #1f2937 0%, #111827 100%);
   position: relative;
 }
 
 .messageList::-webkit-scrollbar {
-  width: 6px;
+  width: 8px;
 }
 
 .messageList::-webkit-scrollbar-track {
-  background: transparent;
+  background: rgba(55, 65, 81, 0.3);
 }
 
 .messageList::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #cbd5e0 0%, #a0aec0 100%);
-  border-radius: 3px;
+  background: linear-gradient(180deg, #4b5563 0%, #374151 100%);
+  border-radius: 4px;
 }
 
 .messageList::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #a0aec0 0%, #718096 100%);
+  background: linear-gradient(180deg, #6b7280 0%, #4b5563 100%);
 }
 
 .welcomeMessage {
@@ -62,22 +62,22 @@
 }
 
 .welcomeMessage h3 {
-  color: #2d3748;
-  font-size: 28px;
+  color: #f3f4f6;
+  font-size: 32px;
   font-weight: 700;
-  margin-bottom: 12px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  margin-bottom: 16px;
+  background: linear-gradient(135deg, #0891b2 0%, #10b981 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .welcomeMessage p {
-  color: #718096;
-  font-size: 16px;
-  margin-bottom: 32px;
-  max-width: 400px;
-  line-height: 1.6;
+  color: #9ca3af;
+  font-size: 18px;
+  margin-bottom: 36px;
+  max-width: 450px;
+  line-height: 1.7;
 }
 
 .suggestions {

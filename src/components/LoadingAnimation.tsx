@@ -1,11 +1,11 @@
 import React from 'react';
-import styles from './TypingIndicator.module.css';
+import styles from './LoadingAnimation.module.css';
 
-interface TypingIndicatorProps {
+interface LoadingAnimationProps {
   isVisible: boolean;
 }
 
-const TypingIndicator: React.FC<TypingIndicatorProps> = ({ isVisible }) => {
+const LoadingAnimation: React.FC<LoadingAnimationProps> = ({ isVisible }) => {
   if (!isVisible) return null;
 
   return (
@@ -27,4 +27,4 @@ const TypingIndicator: React.FC<TypingIndicatorProps> = ({ isVisible }) => {
   );
 };
 
-export default TypingIndicator;
+export default LoadingAnimation;
