@@ -23,7 +23,7 @@ export interface WeatherAgentRequest {
 }
 
 const WEATHER_AGENT_URL = 'https://millions-screeching-vultur.mastra.cloud/api/agents/weatherAgent/stream';
-const THREAD_ID = 'BE-ITC-57';
+const THREAD_ID = 'BE-ITC-22';
 
 export const sendMessageToWeatherAgent = async (
   messages: ChatMessage[],

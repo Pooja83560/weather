@@ -2,15 +2,15 @@
   display: flex;
   gap: 14px;
   padding: 24px;
-  border-top: 2px solid #374151;
-  background: linear-gradient(135deg, #111827 0%, #1f2937 100%);
+  border-top: 2px solid #e2e8f0;
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
   align-items: flex-end;
 }
 
 .input {
   flex: 1;
   padding: 16px 22px;
-  border: 2px solid #4b5563;
+  border: 2px solid #cbd5e0;
   border-radius: 12px;
   outline: none;
   font-size: 16px;
@@ -19,8 +19,8 @@
   max-height: 120px;
   min-height: 54px;
   transition: all 0.3s ease;
-  background: linear-gradient(145deg, #374151 0%, #1f2937 100%);
-  color: #f3f4f6;
+  background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+  color: #374151;
 }
 
 .input:focus {
@@ -29,7 +29,7 @@
 }
 
 .input::placeholder {
-  color: #6b7280;
+  color: #9ca3af;
 }
 
 .sendButton {

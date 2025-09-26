@@ -4,7 +4,7 @@
   padding: 24px;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(180deg, #1f2937 0%, #111827 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
   position: relative;
 }
 
@@ -13,16 +13,16 @@
 }
 
 .messageList::-webkit-scrollbar-track {
-  background: rgba(55, 65, 81, 0.3);
+  background: rgba(229, 231, 235, 0.3);
 }
 
 .messageList::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #4b5563 0%, #374151 100%);
+  background: linear-gradient(180deg, #cbd5e0 0%, #9ca3af 100%);
   border-radius: 4px;
 }
 
 .messageList::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #6b7280 0%, #4b5563 100%);
+  background: linear-gradient(180deg, #9ca3af 0%, #6b7280 100%);
 }
 
 .welcomeMessage {
@@ -62,7 +62,7 @@
 }
 
 .welcomeMessage h3 {
-  color: #f3f4f6;
+  color: #374151;
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 16px;
@@ -73,7 +73,7 @@
 }
 
 .welcomeMessage p {
-  color: #9ca3af;
+  color: #6b7280;
   font-size: 18px;
   margin-bottom: 36px;
   max-width: 450px;
@@ -88,7 +88,7 @@
 }
 
 .suggestions span {
-  color: #a0aec0;
+  color: #64748b;
   font-size: 14px;
   font-weight: 500;
 }
@@ -101,9 +101,9 @@
 }
 
 .suggestionTag {
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
-  border: 1px solid rgba(102, 126, 234, 0.2);
-  color: #667eea;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(16, 185, 129, 0.1) 100%);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  color: #3b82f6;
   padding: 10px 16px;
   border-radius: 20px;
   font-size: 14px;
@@ -113,9 +113,9 @@
 }
 
 .suggestionTag:hover {
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.2) 0%, rgba(16, 185, 129, 0.2) 100%);
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
 }
 
 .loadingIndicator {
@@ -124,7 +124,7 @@
   justify-content: center;
   padding: 16px 20px;
   margin: 8px 0;
-  color: #718096;
+  color: #64748b;
   font-style: italic;
   font-size: 14px;
 }

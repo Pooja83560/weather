@@ -21,7 +21,7 @@ body {
   padding: 0;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #f8fafc;
+  background-color: #ffffff;
 }
 
 #root {
@@ -60,7 +60,7 @@ input, textarea {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #f1f5f9;
   border-radius: 4px;
 }
 
@@ -70,7 +70,7 @@ input, textarea {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #a0aec0;
+  background: #94a3b8;
 }
 
 /* Responsive text sizes */
