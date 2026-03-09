@@ -5,13 +5,13 @@ A modern, responsive chat interface that connects to a weather agent API, built 
 ## 🚀 Features
 
 ### 🎯 Core Functionality
-- ✅ **Interactive Chat Interface** - Real-time messaging with the weather agent
-- ✅ **Streaming API Integration** - Live responses from the weather agent
-- ✅ **Message History** - Persistent conversation tracking
-- ✅ **Auto-scroll** - Automatically scrolls to latest messages
-- ✅ **Smart Loading States** - Animated typing indicators and status updates
-- ✅ **Robust Error Handling** - Comprehensive error handling with user feedback
-- ✅ **Clear Chat** - Reset conversation functionality
+ **Interactive Chat Interface** - Real-time messaging with the weather agent
+ **Streaming API Integration** - Live responses from the weather agent
+ **Message History** - Persistent conversation tracking
+ **Auto-scroll** - Automatically scrolls to latest messages
+ **Smart Loading States** - Animated typing indicators and status updates
+ **Robust Error Handling** - Comprehensive error handling with user feedback
+ **Clear Chat** - Reset conversation functionality
 
 ### 🎨 Premium UI/UX Features
 - ✅ **Fully Responsive Design** - Optimized for desktop, tablet, and mobile (320px+)
